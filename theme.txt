@@ -1,0 +1,52 @@
+title-text: "GRUB Bootloader"
+title-font: "Terminus Regular 24"
+title-color: "#61AFEF"
+desktop-color: "#282C34"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+  left = 10%
+  width = 80%
+  top = 20%
+  height = 50%
+  item_font = "Terminus Regular 16"
+  item_color = "#DCDFE4"
+  selected_item_font = "Terminus Bold 16"
+  selected_item_color= "#61AFEF"
+  icon_width = 0
+  icon_height = 0
+  item_height = 26
+  item_padding = 0
+  item_icon_space = 0
+  item_spacing = 1
+  menu_pixmap_style = "boot_menu_*.png"
+}
+
++ progress_bar {
+  id = "__timeout__"
+  left = 35%
+  top = 80%
+  height = 20
+  width = 30%
+  font = "Terminus Regular 16"
+  text_color = "#DCDFE4"
+  fg_color = "#98C379"
+  bg_color = "#282C34"
+  border_color = "#98C379"
+  text = "@TIMEOUT_NOTIFICATION_LONG@"
+}
+
++ label {
+  top = 100%-25
+  left = 0
+  width = 100%
+  height = 20
+  text = "@KEYMAP_MIDDLE@"
+  align = "center"
+  font = "Terminus Regular 16"
+  color = "#DCDFE4"
+}
