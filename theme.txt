@@ -30,14 +30,11 @@ terminal-border: "0"
   id = "__timeout__"
   left = 35%
   top = 80%
-  height = 20
+  height = 5
   width = 30%
-  font = "Terminus Regular 16"
-  text_color = "#DCDFE4"
   fg_color = "#98C379"
   bg_color = "#282C34"
   border_color = "#98C379"
-  text = "@TIMEOUT_NOTIFICATION_LONG@"
 }
 
 + label {
